@@ -1,0 +1,105 @@
+.bg_body{ 
+    margin: 0;
+    background-color: #220d17;
+    color: white;
+}
+
+/*------text----*/
+
+h1{
+    color: white;
+    font-style: bold;
+    font-size: 128px;
+    font-weight: 700;
+    position: absolute;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+
+.trirong-bold {
+    font-family: "Trirong", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.monsieur-la{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+p{
+    color: white;
+    font-family: "Monsieur+La+Doulaise, cursive";
+    font-style: italic;
+  }
+  
+/*-----color----*/
+.c_dark{background-color: #000;}
+.c_dark_pirple{background-color:#220d17;}
+.c_red_bean{background-color:#3c1518;}
+.c_blood_red{background-color:#69140e;}
+.c_brown{background-color:#a44200;}
+.c_bronze{background-color:#d58936;}
+.c_vanilla{background-color:#f2f3ae;}
+.c_green{background-color: rgb(18, 211, 18);}
+
+  /*-----forme-----8*/
+
+.square {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+  }
+
+.container_forms{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content:space-around;
+    gap: 10px;
+ }
+
+.sez_bg {
+  max-width: 100%;
+  height: auto;
+}
+
+
+  /* ------box size-------*/
+  
+  
+.corner1{border-radius: 5px 100px 5px 5px;}
+.corner2{border-radius: 100px 5px 100px 5px;}
+.corner3{border-radius: 100px 100px 100px 5px;}
+.corner4{border-radius: 5px 100px 5px 100px;}
+.corner5{border-radius: 100px 5px 5px 5px;}
+
+/*------img------*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.size-image {
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.bg_img{
+    background-image: url(assets/occhio.jpg);
+    height: 500px;
+}
+
+.mask1{
+  mask-image:url(./assets/AN.png);
+  mask-repeat: no-repeat;  
+  
+}
+
