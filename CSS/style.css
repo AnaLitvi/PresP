@@ -122,3 +122,6 @@ img {
 .items{
   align-items: center;
 }
+hr{
+  border: 1px solid #f2f3ae;
+}
