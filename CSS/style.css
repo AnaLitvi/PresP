@@ -119,3 +119,6 @@ img {
 .icons_direction{
   flex-direction: row;
 }
+.items{
+  align-items: center;
+}
