@@ -9,9 +9,10 @@
 h1{
     color: white;
     font-style: bold;
+    /*------rendere il titolo responsive (8vw ok x dextop, no per phone) ----*/
     font-size: 128px;
     font-weight: 700;
-    position: absolute;
+    align-content: center;
 }
 h2{
   color: white;
@@ -30,13 +31,26 @@ h2{
     font-style: normal;
     color: white;
   }
-p{
+
+.p1{
     color: white;
-    font-family: "Monsieur+La+Doulaise, cursive";
-    font-style: italic;
+    font-size: 40px;
+    text-align: center;
   }
-  
+
+.p2{font-size: 25px;}
+
+.p3{font-size: 14px;
+  line-height:20px;
+  text-align: center;
+}
+
+.line_height{ line-height: 35px;
+}
+
+
 /*-----color----*/
+
 .c_dark{background-color: #000;}
 .c_dark_pirple{background-color:#220d17;}
 .c_red_bean{background-color:#3c1518;}
@@ -45,8 +59,9 @@ p{
 .c_bronze{background-color:#d58936;}
 .c_vanilla{background-color:#f2f3ae;}
 .c_green{background-color: rgb(18, 211, 18);}
+.invert {filter: invert(100%);}
 
-  /*-----forme-----8*/
+  /*-----forme-----5*/
 
 .square {
     height: 200px;
@@ -64,13 +79,7 @@ p{
     gap: 10px;
  }
 
-.sez_bg {
-  max-width: 100%;
-  height: auto;
-}
-
-
-  /* ------box size-------*/
+/* ------box size-------*/
   
   
 .corner1{border-radius: 5px 100px 5px 5px;}
@@ -84,22 +93,29 @@ p{
 img {
   max-width: 100%;
   height: auto;
-}
-
-.size-image {
-  background-size: cover;
-  height: 500px;
-  position: relative;
+  object-fit: cover;
 }
 
 .bg_img{
-    background-image: url(assets/occhio.jpg);
-    height: 500px;
+  background-color: #a44200;
+  background-image: url("assets/planet.jpg");
+  height: 700px;
 }
 
 .mask1{
-  mask-image:url(./assets/AN.png);
-  mask-repeat: no-repeat;  
+  mask-image:url("assets/AN.png");
+  mask-repeat: no-repeat;
+  align-items: center;
   
 }
+.size_img{
+  display: flex;
+  flex-direction: column;
+  width:40%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.icons_direction{
+  flex-direction: row;
+}

@@ -1,3 +1,22 @@
+/*----spazi----*/
+.p_20{ 
+  padding: 20px
+}
+
+.p_80{
+ padding: 80px; 
+}
+.p_100{
+  padding: 100px 0px;
+}
+
+.p_80_0{
+  padding: 80px 0px;
+}
+
+/*----cared----*/
+
+
 .flip-card {
     background-color: transparent;
     width: 300px;
