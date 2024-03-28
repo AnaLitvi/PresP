@@ -42,7 +42,6 @@ h2{
 
 .p2{
   font-size: 25px;
-  text-align: center;
 }
 
 .p3{font-size: 14px;
@@ -117,7 +116,7 @@ img {
 
 .bg_img{
   background-color: #a44200;
-  background-image: url("assets/planet.jpg");
+  background-image: url("../assets/planet.jpg");
   height: 700px;
 }
 
@@ -130,7 +129,7 @@ img {
   border-radius: 40%;
 }
 .mask1{
-  mask-image:url("assets/AN.png");
+  mask-image:url("../assets/AN.png");
   mask-repeat: no-repeat;
   align-items: center;
   
@@ -152,4 +151,9 @@ img {
 }
 hr{
   border: 1px solid #f2f3ae;
+}
+
+.sez{
+  justify-content: center;
+  text-align: center;
 }

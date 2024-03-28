@@ -1,78 +1,87 @@
 <!doctype html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Ana_Litvi_Presentation</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/cards.css">
-    <link rel="stylesheet" href="./CSS/form.css">
-  </head>
-  <body class="p-3 m-0 border-0 bd-example m-0 border-0 bg_body">
 
-    <!-- NAVBAR OK-->
-<header>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand monsieur-la logo" href="#">Ana Litvi</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- da centrare i 4 punti!-->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#link">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " aria-disabled="true" href="#contatti">Contatti</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Ana_Litvi_Presentation</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/cards.css">
+  <link rel="stylesheet" href="./CSS/form.css">
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 bg_body">
+
+  <!-- NAVBAR OK-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand monsieur-la logo" href="#">Ana Litvi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- da centrare i 4 punti!-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#link">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-disabled="true" href="#contatti">Contatti</a>
               <!--da mettere il link e da vedere il TOOLTIP!-->
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#lavori" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Lavori
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#arte">Arte</a></li>
-              <li><a class="dropdown-item" href="#foto">Fotografia</a></li>
-              <li><a class="dropdown-item" href="#ds">Design</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#process">Work Process</a></li>
-            </ul>
-          </li>
-          
-        </ul>
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-        </form>
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-outline-warning">Sign-up</button>
-      </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#lavori" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Lavori
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#arte">Arte</a></li>
+                <li><a class="dropdown-item" href="#foto">Fotografia</a></li>
+                <li><a class="dropdown-item" href="#ds">Design</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#process">Work Process</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+              aria-label="Search">
+          </form>
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">Login</button>
+            <button type="button" class="btn btn-outline-warning">Sign-up</button>
+          </div>
+        </div>
+    </nav>
+    <!-- HomeOK-->
+    <div id="home" class="bg_img p_80">
+      <img src="" alt="">
+      <h1 class="trirong-bold">Anastasia<br>Litvinenko</h1>
+      <p class="monsieur-la p2">Hello world</p>
     </div>
-  </nav>
- <!-- Home quasi OK-->
-<div id="home" class="bg_img p_80">   
-  <img src="" alt="">
-  <h1 class="trirong-bold">Anastasia<br>Litvinenko</h1>
-  <p class="monsieur-la p2">Hello world</p>
-</div>
 
-<div>
-  <p class="monsieur-la p1 p_80">Benvenuti sulla mia pagina!  Conosciamoci meglio!</p>
-</div>
+    <div>
+      <p class="monsieur-la p1 p_80">Benvenuti sulla mia pagina! Conosciamoci meglio!</p>
+    </div>
 
-</header>
- <!-- FORMS OK-->
+  </header>
+  <!-- FORMS OK-->
   <div class="container_forms p_100">
     <div class="square corner1 c_bronze"></div>
     <div class="square corner2 c_brown"></div>
@@ -81,239 +90,279 @@
     <div class="square corner5 c_red_bean"></div>
   </div>
 
-<!-- logo mask REVIEW-->
-<div class="">
-  <div class="p_80 size_img">
-    <img src="./assets/forest.jpg" alt="Forest">
-  </div>
-</div>
-<!-- logo mask fine-->
-
-<div class="p_80">
-  <h2 class="trirong-bold">Vediamo un po'...</h2>
-</div>
-
-   <!---------------------------- square text+img OK REVIEW----------------------------->
-   <!---------------------------- cambiare testo e img---------------------------->
-<section class="p_100">
-  <div class="container marketing">
-    <!-- Three columns of text below the carousel -->
-    <div class="row p_100">
-
-      <div class="col-lg-4">
-        <!----- da chiedere cos'è e come modificarlo----->
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"  role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-        </svg>
-
-        <h2 class="fw-normal trirong-bold">Titolo 1</h2>
-        <p class="p3">Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <button type="button" class="btn btn-outline-light" href="#">View More »</button>
-      </div><!-- /.col-lg-4 -->
-       
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-        <h2 class="fw-normal trirong-bold">Titolo 2</h2>
-        <p class="p3">Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <button type="button" class="btn btn-outline-light" href="#">View More »</button>
-      </div><!-- /.col-lg-4 -->
-      
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-        <h2 class="fw-normal trirong-bold">Titolo 3</h2>
-        <p class="p3">And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <div class="row featurette p_80_0 items">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1" x="50%" y="50%">First featurette heading.</h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect></svg>
-      </div>
+  <!-- logo mask REVIEW-->
+    <div class="p_80 size_img mask1">
+      <img src="./assets/forest.jpg" alt="Forest">
     </div>
+  <!-- logo mask fine-->
 
-    <div class="row featurette p_80_0 items">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1" x="50%" y="50%">Oh yeah, it’s that good.</h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect></svg>
-      </div>
-    </div>
-
-    <div class="row featurette p_80_0 items">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1"  x="50%" y="50%" > And lastly, this one.</h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect></svg>
-      </div>
-    </div>
-
-    <!-- /END THE FEATURETTES -->
-
-  </div>
-</section>
-<!---------------------------- square text+img fine----------------------------->
-
-<div class="p_100">
-  <h2 class="trirong-bold">Il CHAOS E' TRA NOI</h2>
-</div>
-<!---------------------------- CARTE OK----------------------------->
-<div class="container_forms p_100 line_height">
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="./assets/arte.jpg" alt="Arte, pennelli e colori" style="height:300px;">
-      </div>
-      <div id="arte" class="flip-card-back p_20 c_brown">
-        <h2 class="trirong-bold">Arte</h2> 
-        <h3 class="monsieur-la">Arte in ogni sua essenza</h3> 
-        <p class="p3">Amo l'arte e tutto ciò che ne deriva.</p>
-      </div>
-    </div>
+  <div class="p_80">
+    <h2 class="trirong-bold">Vediamo un po'...</h2>
   </div>
 
-  <div class="flip-card ">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="./assets/macchinetta.jpg" alt="Fotografia, macchinetta fotografica" style="height:300px;">
+  <!---------------------------- square text+img OK REVIEW----------------------------->
+  <!---------------------------- cambiare testo e img---------------------------->
+  <section class="p_100">
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row p_100 sez">
+
+        <div class="col-lg-4">
+          <!----- da chiedere cos'è e come modificarlo----->
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+
+          <h2 class="fw-normal trirong-bold">Titolo 1</h2>
+          <p class="p3">Some representative placeholder content for the three columns of text below the carousel. This
+            is the first column.</p>
+          <button type="button" class="btn btn-outline-light" href="#">View More »</button>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <h2 class="fw-normal trirong-bold">Titolo 2</h2>
+          <p class="p3">Another exciting bit of representative placeholder content. This time, we've moved on to the
+            second column.</p>
+          <button type="button" class="btn btn-outline-light" href="#">View More »</button>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          </svg>
+          <h2 class="fw-normal trirong-bold">Titolo 3</h2>
+          <p class="p3">And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <div class="row featurette p_80_0 items">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1" x="50%" y="50%">First featurette heading.</h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
+            here.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+          </svg>
+        </div>
       </div>
-      <div id="foto" class="flip-card-back p_20 c_blood_red">
-        <h2 class="trirong-bold">Fotografia</h2> 
-        <h3 class="monsieur-la">L'anima resa eterna.</h3>
-        <p class="p3">Mi puoi trovare in giro per la città con la fotocamera in mano, a cogliere attimi del tempo.</p>
+
+      <div class="row featurette p_80_0 items">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1" x="50%" y="50%">Oh yeah, it’s that good.</h2>
+          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
+            layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+          </svg>
+        </div>
       </div>
+
+      <div class="row featurette p_80_0 items">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1" x="50%" y="50%"> And lastly, this one.</h2>
+          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
+            intended to be actually read, simply here to give you a better view of what this would look like with some
+            actual content. Your content.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
+          </svg>
+        </div>
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+
     </div>
-  </div>
-
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="./assets/design_mani.jpg" alt="web-design, mani che lavorano al pc" style="height:300px;">
-      </div>
-      <div id="ds" class="flip-card-back p_20 c_bronze">
-        <h2 class="trirong-bold">Design</h2> 
-        <h3 class="monsieur-la">Una passione </h3> 
-        <p class="p3">Ho conosciuto il web design relativamente da poco, e non mi aspettavo di esserne travolta.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!---------------------------- CARTE FINE----------------------------->
-
-
-
-
-<!---------------------------- Work PROCESS----------------------------->
-<!---------------------------- aggiungere gli ACCORDION sotto i bottoni---------------------------->
-<div class="p_100 container_forms">
-  <button type="button" class="btn btn-outline-light" href="#">Work progress</button> 
-    <hr class="w_10">
-  <button type="button" class="btn btn-outline-light" href="#">Work progress</button> 
-    <hr class="w_10">
-  <button type="button" class="btn btn-outline-light" href="#">Work progress</button>
-</div>
-<!---------------------------- W PROCESS FINE----------------------------->
-
-
-
-<!---------------------------- CAROUSEL---------------------------->
-<!---------------------------- aggiustare le dimensioni---------------------------->
+  </section>
+  <!---------------------------- square text+img fine----------------------------->
 
   <div class="p_100">
+    <h2 class="trirong-bold">Il CHAOS E' TRA NOI</h2>
+  </div>
+  <!---------------------------- CARTE OK----------------------------->
+  <div class="container_forms p_100 line_height">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./assets/arte.jpg" alt="Arte, pennelli e colori" style="height:300px;">
+        </div>
+        <div id="arte" class="flip-card-back p_20 c_brown">
+          <h2 class="trirong-bold">Arte</h2>
+          <h3 class="monsieur-la">Arte in ogni sua essenza</h3>
+          <p class="p3">Amo l'arte e tutto ciò che ne deriva.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card ">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./assets/macchinetta.jpg" alt="Fotografia, macchinetta fotografica" style="height:300px;">
+        </div>
+        <div id="foto" class="flip-card-back p_20 c_blood_red">
+          <h2 class="trirong-bold">Fotografia</h2>
+          <h3 class="monsieur-la">L'anima resa eterna.</h3>
+          <p class="p3">Mi puoi trovare in giro per la città con la fotocamera in mano, a cogliere attimi del tempo.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./assets/design_mani.jpg" alt="web-design, mani che lavorano al pc" style="height:300px;">
+        </div>
+        <div id="ds" class="flip-card-back p_20 c_bronze">
+          <h2 class="trirong-bold">Design</h2>
+          <h3 class="monsieur-la">Una passione </h3>
+          <p class="p3">Ho conosciuto il web design relativamente da poco, e non mi aspettavo di esserne travolta.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------- CARTE FINE----------------------------->
+
+
+
+
+  <!---------------------------- Work PROCESS----------------------------->
+  <!---------------------------- aggiungere gli ACCORDION sotto i bottoni---------------------------->
+  <div class="p_100 container_forms">
+    <button type="button" class="btn btn-outline-light" href="#">Work progress</button>
+    <hr class="w_10">
+    <button type="button" class="btn btn-outline-light" href="#">Work progress</button>
+    <hr class="w_10">
+    <button type="button" class="btn btn-outline-light" href="#">Work progress</button>
+  </div>
+  <!---------------------------- W PROCESS FINE----------------------------->
+
+
+
+  <!---------------------------- CAROUSEL---------------------------->
+  <!---------------------------- aggiustare le dimensioni---------------------------->
+
+  <div class="p_100 ">
     <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./assets/PP_macchinetta.jpg" class="d-block w-80" alt="macchina fotografica primo piano">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-item">
-        <img src="./assets/design_mani.jpg" class="d-block w-80" alt="lavoro design">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/PP_macchinetta.jpg" class="d-block w-80" alt="macchina fotografica primo piano">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/design_mani.jpg" class="d-block w-80" alt="lavoro design">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/arte.jpg" class="d-block w-80" alt="macchinetta">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="./assets/arte.jpg" class="d-block w-80" alt="macchinetta">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
 
-<!---------------------------- CAROUSEL FINE---------------------------->
-<div class="a bg_text p_80 container_forms flex_reverse">
+  <!---------------------------- CAROUSEL FINE---------------------------->
+  <div class="a bg_text p_80 container_forms flex_reverse">
     <img src="./assets/occhio.jpg" alt="occhio galaxy" class="radius">
-  <div>
-    <p class="tr_text p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sit nam explicabo laboriosam nisi ipsam autem dicta, delectus repellat nihil porro adipisci voluptatum vitae dolorum fugit quidem quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis perspiciatis esse excepturi voluptatum modi rerum, sapiente, fugit corrupti dicta voluptatem sit velit, qui dolore fugiat earum iste quos nemo soluta!
-    </p>
+    <div>
+      <p class="tr_text p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem sit nam explicabo
+        laboriosam nisi ipsam autem dicta, delectus repellat nihil porro adipisci voluptatum vitae dolorum fugit quidem
+        quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis perspiciatis esse excepturi voluptatum modi
+        rerum, sapiente, fugit corrupti dicta voluptatem sit velit, qui dolore fugiat earum iste quos nemo soluta!
+      </p>
+    </div>
   </div>
-</div>
-<hr>
 
-<!---------------------------- CONTACT US---------------------------->
+  <!---------------------------- CONTACT US---------------------------->
 
-<div class="container ">
-  <div class="row full-height justify-content-center">
-    <div class="col-12 text-center align-self-center py-5">
-      <div class="section pb-5 pt-5 pt-sm-2 text-center">
-        <h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
-              <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
-              <label for="reg-log"></label>
-        <div class="card-3d-wrap mx-auto">
-          <div class="card-3d-wrapper">
-            <div class="card-front">
-              <div class="center-wrap">
-                <div class="section text-center">
-                  <h4 class="mb-4 pb-3">Log In</h4>
-                  <div class="form-group">
-                    <input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
-                    <i class="input-icon uil uil-at"></i>
-                  </div>	
-                  <div class="form-group mt-2">
-                    <input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
-                    <i class="input-icon uil uil-lock-alt"></i>
-                  </div>
-                  <a href="#" class="btn mt-4">submit</a>
-                                <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
+  <div class="container ">
+    <div class="row full-height justify-content-center">
+      <div class="col-12 text-center align-self-center py-5">
+        <div class="section pb-5 pt-5 pt-sm-2 text-center">
+          <h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+          <input class="checkbox" type="checkbox" id="reg-log" name="reg-log" />
+          <label for="reg-log"></label>
+          <div class="card-3d-wrap mx-auto">
+            <div class="card-3d-wrapper">
+              <div class="card-front">
+                <div class="center-wrap">
+                  <div class="section text-center">
+                    <h4 class="mb-4 pb-3">Log In</h4>
+                    <div class="form-group">
+                      <input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail"
+                        autocomplete="off">
+                      <i class="input-icon uil uil-at"></i>
                     </div>
+                    <div class="form-group mt-2">
+                      <input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass"
+                        autocomplete="off">
+                      <i class="input-icon uil uil-lock-alt"></i>
+                    </div>
+                    <a href="#" class="btn mt-4">submit</a>
+                    <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
                   </div>
                 </div>
-            <div class="card-back">
-              <div class="center-wrap">
-                <div class="section text-center">
-                  <h4 class="mb-4 pb-3">Sign Up</h4>
-                  <div class="form-group">
-                    <input type="text" name="logname" class="form-style" placeholder="Your Full Name" id="logname" autocomplete="off">
-                    <i class="input-icon uil uil-user"></i>
-                  </div>	
-                  <div class="form-group mt-2">
-                    <input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
-                    <i class="input-icon uil uil-at"></i>
-                  </div>	
-                  <div class="form-group mt-2">
-                    <input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
-                    <i class="input-icon uil uil-lock-alt"></i>
-                  </div>
-                  <a href="#" class="btn mt-4">submit</a>
+              </div>
+              <div class="card-back">
+                <div class="center-wrap">
+                  <div class="section text-center">
+                    <h4 class="mb-4 pb-3">Sign Up</h4>
+                    <div class="form-group">
+                      <input type="text" name="logname" class="form-style" placeholder="Your Full Name" id="logname"
+                        autocomplete="off">
+                      <i class="input-icon uil uil-user"></i>
                     </div>
+                    <div class="form-group mt-2">
+                      <input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail"
+                        autocomplete="off">
+                      <i class="input-icon uil uil-at"></i>
+                    </div>
+                    <div class="form-group mt-2">
+                      <input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass"
+                        autocomplete="off">
+                      <i class="input-icon uil uil-lock-alt"></i>
+                    </div>
+                    <a href="#" class="btn mt-4">submit</a>
                   </div>
                 </div>
               </div>
@@ -321,16 +370,17 @@
           </div>
         </div>
       </div>
+    </div>
   </div>
 
-<!---------------------------- CONTACT US FINE---------------------------->
+  <!---------------------------- CONTACT US FINE---------------------------->
 
-<hr>
+  <hr>
 
   <!----------------------------FOOTER OK----------------------------->
-<footer class="c_dark container_forms p_80">
-  <div> 
-    <h6>Social:</h6> 
+  <footer class="c_dark container_forms p_80">
+    <div>
+      <h6>Social:</h6>
       <!-- 4 icone social -->
       <div class="icons_direction invert">
         <img src="./assets/icons/whatsapp_1384007.png" alt="Whats App">
@@ -339,43 +389,45 @@
         <img src="./assets/icons/telegram_2111710.png" alt="Telegram">
 
       </div>
-  </div>
-  <div>
-    <h6>Contacts:</h6>
-     <!-- 2 icone TEL/MAIL + tooltip copy -->
-     <div class="invert icons_direction">
-      <img src="./assets/icons/phone-call_455705.png" alt="Phone num">
-      <img src="./assets/icons/email_3178158.png" alt="email">
-     </div>
-  </div>
-  <div>
-    <!-- rquadro 2 -->
-  </div>
-
-  <div>
-    <!-- riquadro 3 contenuto della pag -->
+    </div>
     <div>
-      <ul class=" me-auto mb-2 mb-lg-0">
-        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-        <a class="nav-link" href="#link">Link</a>
-        <a class="nav-link " aria-disabled="true" href="#contatti">Contatti</a>
-        <a class="nav-link dropdown-toggle" href="#lavori" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <h6>Contacts:</h6>
+      <!-- 2 icone TEL/MAIL + tooltip copy -->
+      <div class="invert icons_direction">
+        <img src="./assets/icons/phone-call_455705.png" alt="Phone num">
+        <img src="./assets/icons/email_3178158.png" alt="email">
+      </div>
+    </div>
+    <div>
+      <!-- rquadro 2 -->
+    </div>
+
+    <div>
+      <!-- riquadro 3 contenuto della pag -->
+      <div>
+        <ul class=" me-auto mb-2 mb-lg-0">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#link">Link</a>
+          <a class="nav-link " aria-disabled="true" href="#contatti">Contatti</a>
+          <a class="nav-link dropdown-toggle" href="#lavori" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             Lavori</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#arte">Arte</a></li>
             <li><a class="dropdown-item" href="#foto">Fotografia</a></li>
             <li><a class="dropdown-item" href="#ds">Design</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
             <li><a class="dropdown-item" href="#process">Work Process</a></li>
           </ul>
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
+
     </div>
+  </footer>
 
-  </div>
-</footer>
+</body>
 
-  </body>
 </html>
-  
-    
