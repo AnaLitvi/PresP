@@ -128,12 +128,7 @@ img {
   width: 500px;
   border-radius: 40%;
 }
-.mask1{
-  mask-image:url("../assets/AN.png");
-  mask-repeat: no-repeat;
-  align-items: center;
-  
-}
+
 .size_img{
   display: flex;
   flex-direction: column;
